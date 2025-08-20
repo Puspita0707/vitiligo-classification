@@ -1,5 +1,6 @@
 import streamlit as st
 import tensorflow as tf
+tf.keras.config.enable_unsafe_deserialization()
 from PIL import Image
 import numpy as np
 
